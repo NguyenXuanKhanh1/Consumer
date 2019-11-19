@@ -17,8 +17,7 @@ import { EditConsumerComponent } from '../edit-consumer/edit-consumer.component'
 
 @Component({
 	selector: 'app-list-consumers',
-	templateUrl: './list-consumers.component.html',
-	styleUrls: ['./list-consumers.component.scss']
+	templateUrl: './list-consumers.component.html'
 })
 export class ListConsumersComponent implements OnInit {
 	@ViewChild("formRef", { static: true }) public formRef: ElementRef;

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { ServiceRequest, ServiceResponse } from './consumer-service';
+import { ServiceRequest, ServiceResponse } from './consumer-service.model';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
