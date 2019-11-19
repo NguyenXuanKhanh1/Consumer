@@ -1,0 +1,8 @@
+<katana-card>
+    <katana-table [option]="option">
+        <ng-template let-item="item" #imageTemplate>
+            <img [src]="item.image"/>
+            <!-- <h4>{{item.name}}</h4> -->
+        </ng-template>
+    </katana-table>
+</katana-card>
